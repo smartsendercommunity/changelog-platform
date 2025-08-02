@@ -4,6 +4,11 @@
 
 ### 25.07.2025
 - Додано новий функціональний блок "[Smart AI](https://smartsendereu.atlassian.net/wiki/spaces/docsru/pages/2599190657/-+Smart+AI)". Даний блок являється вбудованою інтеграцією з багатьма моделями штучного інтелекту через шлюз [OpenRouter.ai](https://openrouter.ai/)
+- Додано нові точки API для інтеграції з OpenRouter.
+    - GET /v1/openrouter/contexts
+    - POST /v1/openrouter/contexts
+    - PUT /v1/openrouter/contexts/{contextId}
+    - DELETE /v1/openrouter/contexts/{contextId}
 
 ### 11.10.2024
 - Відновлена робота інтеграції з Google Sheets з дрібними змінами у взаємодії. Тепер після підключення інтеграції додатково потрібно вибрати таблиці для надання доступу.
